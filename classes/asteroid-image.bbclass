@@ -20,6 +20,6 @@ EXTRA_USERS_PARAMS = "groupadd system; \
                       useradd -p '' -G 'audio,video,system,wheel,gps,sailfish-datetime,datetime,mtp,users' ceres"
 
 IMAGE_OVERHEAD_FACTOR = "1.0"
-IMAGE_ROOTFS_EXTRA_SPACE = "131072"
+IMAGE_ROOTFS_EXTRA_SPACE = "1048576"
 
 EXTRA_IMAGECMD:ext4 += " -O^metadata_csum"
